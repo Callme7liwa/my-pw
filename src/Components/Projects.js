@@ -11,13 +11,31 @@ const Projects = ({mode}) => {
 
     const listProjects = [
         {
+          image : Images.web_dev_12, 
+          name  : "DoneIt",
+          description :  "A small application for managing tasks for its users. The objective of this project is to become familiar with the .NET environment and to explore how to implement microservices using this technology. Similarly, for the frontend part, I took the opportunity to see how 3D animations work with Three.js.",
+          technologies : ["ASP.NET","REACTJS","THREE JS","Java","Microservices","JWT","git","github"],
+          duration : "Jan.2024 - Feb.2024",
+          images : [Images.tasks_1,Images.tasks_2,Images.tasks_3,Images.tasks_4,Images.tasks_5,Images.tasks_6,Images.tasks_7]
+        },
+        {
+          image : Images.web_dev_11 , 
+          name  : "DeliverEase",
+          description : "The main objective is to leverage this opportunity by developing an innovative mobile application that connects parcel senders with individuals traveling to the same destination where the parcel needs to be delivered. This approach will improve the efficiency and speed of deliveries while reducing costs.",
+          technologies : ["Flutter","Spring Boot","Dart","Java","Jira","git","github"],
+          duration : "Jan.2024 - Feb.2024",
+          images : [Images.deliver_1,Images.deliver_2,Images.deliver_3,Images.deliver_4,Images.deliver_5,Images.deliver_6,Images.deliver_7,Images.deliver_9,Images.deliver_10,Images.deliver_11]
+        },
+        {
           image : Images.web_dev_10 , 
           name  : "TeamUp",
           description : "Developed a groundbreaking mobile application aimed at bringing together street football teams and players. The app streamlines the process of finding opponents for teams and provides players with an easy way to discover teams to join. Key features include team-initiated match requests and the ability for teams to announce openings that interested players can sign up for. This dynamic platform transforms match organization and strengthens the community of street football enthusiasts.",
-          technologies : ["Dart","Flutter","","git","github"],
+          technologies : ["Flutter","Spring Boot","Dart","Java","Jira","git","github"],
           duration : "Current Working",
           images : [Images.foot_10,Images.foot_11]
         },
+      
+       
         {
           image : Images.web_dev_6,
           name : "Streaming Pro",
